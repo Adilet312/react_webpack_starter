@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 function Navbar()
 {
   var navContainer =
@@ -42,9 +43,9 @@ function Navbar()
   }
   return (
      <div style={navContainer}>
-     <a href="#" style = {listLinks}>Home</a>
-     <a href="#" style = {listLinks}>About</a>
-     <a href="#" style = {listLinks}>Contact</a>
+     <Link to="/" style = {listLinks}>Home</Link>
+     <Link to="/" style = {listLinks}>About</Link>
+     <Link to="/pathToForm" style = {listLinks}>Create tweet account</Link>
      <button id='tweedId' style={inputTweet}>Tweet</button>
      <input type='text' id='searchId' style={inputSearch} placeholder='Search'/>
      <br/>

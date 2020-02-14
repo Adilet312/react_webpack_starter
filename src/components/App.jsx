@@ -1,6 +1,9 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Body from "./Body";
+import {Switch,Route} from "react-router-dom";
+import TweetForm from "./TweetForm";
+
 
 
 function App(){
@@ -8,7 +11,10 @@ function App(){
     <div>
       <Navbar/>
       <hr/>
-      <Body/>
+        <Switch>
+          <Route exact path="/" component={Body} />
+          <Route path="/pathToForm" component={TweetForm} />
+        </Switch>
     </div>
   );
 }

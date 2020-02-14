@@ -9,9 +9,9 @@ export default  function MiddleColumn()
     marginLeft: "10px",
     positive: "relative",
     width: "40%",
-    height: "600px",
+    height: "565px",
     display: "inline-block",
-    border: "2px solid red"
+    border: "2px solid grey"
 
 
   }

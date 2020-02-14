@@ -4,7 +4,7 @@ function UserCard()
   var userInfo =
   {
 
-    
+
     margin: "20px 0px",
     border: "2px solid gray",
     height: "210px",
@@ -45,10 +45,11 @@ function UserCard()
   var links =
   {
     color: "slategrey",
-    fontSize: "12px",
-    marginLeft: "24px",
+    fontSize: "18px",
+    marginLeft: "20px",
     fontFamily: "Arial",
-    marginTop: "33px"
+    marginTop: "-30px",
+
   }
   return (
     <div style = {userInfo}>

@@ -20,8 +20,11 @@ function AcceptOption(props){
 
   var buttonStyling =
   {
-    padding: "2px 12px",
-    backgroundColor: "lightBlue"
+    padding: "10px",
+    width: "30%",
+    borderRadius: "20px",
+    border: "2px solid LightBlue",
+    marginLeft: "20px"
   }
 
   return (

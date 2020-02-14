@@ -8,6 +8,7 @@ function LastColumn()
       // margin: "-10px 0px",
       float: "left",
       width: "20%",
+      height: "565px",
       marginLeft: "10px",
       display: "inline-block",
       border: "2px solid grey"
